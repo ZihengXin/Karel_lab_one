@@ -1,4 +1,5 @@
-// 9/27 Charly. This program is for user to enter the coordinates of the top left corner of a rectangle
+/* 9/27 Charly. This program is for user to enter the coordinates of the top left corner of a rectangle
+        and the program will print out the outcome. */
 import java.awt.*;
 import java.util.Scanner;
 
