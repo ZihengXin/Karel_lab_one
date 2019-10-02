@@ -1,3 +1,4 @@
+// Charly. This program should be able tp create a rectangle, and move and print it 4 times.
 import java.awt.*;
 
 public class FourRectanglePrinter {
