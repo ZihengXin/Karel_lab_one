@@ -1,3 +1,4 @@
+// 10/3 Charly. Print the Fight Song without using println in the main method.
 public class FightSong {
     private static void go(){
         System.out.println("Go, team, go! \nYou can do it.");
