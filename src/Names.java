@@ -13,7 +13,5 @@ public class Names {
         System.out.println(first.indexOf(last.substring(5,6)));
         System.out.print(first.substring(0,3)+last.substring(3)+" ");
         System.out.print(last.substring(0,3)+first.substring(3));
-
-
     }
 }
