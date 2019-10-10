@@ -17,6 +17,7 @@ public class Password {
         System.out.print("Ages: ");
         int age= input.nextInt();
         System.out.println(" ");
+        System.out.print("Password: ");
         capMid(first);
         capMid(middle);
         capMid(last);
