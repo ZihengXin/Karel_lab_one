@@ -1,19 +1,15 @@
 /* 10/10 Charly. This is a password generator that can generate a password based on one's first name, middle
-name, last name, and age. The only problem is that the program does not accept multiple middle names. */
+name, last name, and age.  */
 import java.util.Scanner;
-
-
-
 public class Password {
     public static void main(String[] args){
         Scanner input= new Scanner(System.in);
-        System.out.print("First Name: ");
-        String first= input.next();
-        System.out.print("Middle Name: ");
-//we got a problem here: the middle name can only be one word.
-        String middle= input.next();
-        System.out.print("Last Name: ");
-        String last= input.next();
+        System.out.println("First Name: ");
+        String first= input.nextLine();
+        System.out.println("Middle Name: ");
+        String middle= input.nextLine();
+        System.out.println("Last Name: ");
+        String last= input.nextLine();
         System.out.print("Ages: ");
         int age= input.nextInt();
         System.out.println(" ");
@@ -25,7 +21,6 @@ public class Password {
         last(middle);
         last(last);
         age(age);
-
     }
 // this line is to calculate the middle letter of the name
     private static void capMid(String name){
