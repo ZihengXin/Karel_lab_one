@@ -1,3 +1,4 @@
+//10/15 Charly. This program should be able to tell the change of temperature. The result should never be negative. 
 import java.util.Scanner;
 
 public class TemperatureDifference {

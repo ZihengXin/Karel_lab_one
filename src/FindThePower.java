@@ -1,4 +1,4 @@
-// 10/15 Charly. This program should be able to calculate and print the value of the power. 
+// 10/15 Charly. This program should be able to calculate and print the value of the power.
 import java.util.Scanner;
 
 public class FindThePower {
